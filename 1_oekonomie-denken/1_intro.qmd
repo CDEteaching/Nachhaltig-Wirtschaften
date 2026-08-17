@@ -30,7 +30,8 @@ Bevor wir uns im nächsten Kapitel mit dem Gegenstand der Ökonomie sowie zentra
 
 Die Wirtschaftswissenschaften lassen sich in zwei Bereiche unterteilen: die Betriebswirtschaftslehre (BWL) und die Volkswirtschaftslehre (VWL).
 
-Abbildung 1: Disziplinäre Verortung der Wirtschaftswissenschaften [@engelkampEinfuehrungVolkswirtschaftslehre2013, p. 3]
+![Abbildung 1: Disziplinäre Verortung der Wirtschaftswissenschaften [@engelkampEinfuehrungVolkswirtschaftslehre2013, p. 3]](images/abb1.png)
+
 
 **Die Betriebswirtschaftslehre** „ist die Lehre von den wirtschaftlichen, organisatorischen, technischen sowie finanziellen Abläufen in Unternehmen und den unterschiedlichen wirtschaftlichen Institutionen“ [@friedliBetriebswirtschaftslehreZusammenhangeVerstehen2019, p. 16]. Darin entwickeln Forschende eine einzelwirtschaftliche Perspektive auf den jeweiligen Untersuchungsgegenstand.
 
@@ -43,7 +44,7 @@ Die Volkswirtschaftslehre lässt sich in **drei grössere Teilbereiche** einteil
 **Wirtschaftspolitik**: befasst sich mit staatlichen Eingriffen in die Wirtschaft zur Steigerung der gesellschaftlichen Wohlfahrt [@bontrupVolkswirtschaftslehreAusOrthodoxer2021a, p. 2], etwa durch Interventionen wie Kartellverbote oder Einführung von Mindestlöhnen.
 
 Die **Finanzwissenschaft** untersucht die verschiedenen Komponenten des Staatshaushalts wie Steuern oder Subventionen und deren gegenseitige Beziehung. Dadurch werden hier implizit Fragen zur Rolle des Staates in der Ressourcenallokation und der Einkommens- und Vermögensverteilung untersucht.
-![](images/abb1.png)
+
 :::
 
 
@@ -112,7 +113,13 @@ Chang, Ha-Joon. 2014. Economics: The User’s Guide. First U.S. edition. New Yor
 
 Wir haben nun kurze Einblicke in unterschiedliche Verständnisse von Ökonomik angeschaut. In diesem Kapitel wollen wir uns noch etwas mehr mit der Geschichte der ökonomischen Theorie auseinandersetzen und uns fragen, wie sich die Volkswirtschaftslehre selbst entwickelt hat. Dabei soll die Herausbildung der dominanten Denkschule, der Neoklassik, im Vordergrund stehen.
 
+::: {.content-visible when-format="html"}
+::::: selbststudienphase
+::: selbststudienphase-header
+Selbststudienphase
+:::
 
+::: selbststudienphase-body
 Untenstehend finden Sie Ausschnitte der Vorlesung von Walter Ötsch zur ökonomischen Theoriengeschichte. Walter Ötsch beschreibt wie die Ökonomik sich von der Moralwissenschaft unter Adam Smith (1723-1790) zu einer Wissenschaft mit einem biologisch determinierten Menschenbild unter Thomas Malthus (1766-1834) und David Ricardo (1772-1823) entwickelt. In diesem Prozess kommen naturwissenschaftliche Metaphern (Uhr-System, Waage-Gleichgewicht, Computer-Information) immer mehr zum Tragen. Diesen Prozess hat die Entwicklung der Neoklassik stark geprägt.
 
 
@@ -120,10 +127,13 @@ Walter Ötsch ist Professor an der Hochschule für Gesellschaftsgestaltung in Ko
 
 
 Die Videos finden Sie über diesen Link. [video auf opencast, dann hier einbetten]
+:::
+:::::
+
 
 
 ::: {.callout-tip collapse="true"}
-### Exkurs: Geschichte des Homo Oeconomicus (nur bei Interesse)
+### Exkurs: Geschichte des Homo Oeconomicus
 
 Die Geschichte vom homo oeconomicus geht mindestens bis auf die Erwähnung des “economicus” in Xenophon’s gleichnamigem Werk im vierten Jahrhundert v. Chr. zurück [@wilsonHistoryHomoEconomicus2014, p. 11]. In der langen Zeitspanne bis zur Begründung der modernen Ökonomie durch Adam Smith im 18. Jahrhundert wurden verschiedene Konzeptionen des economic man[^2] verwendet – häufig stark vom entsprechenden Zeitgeist geprägt.
 
@@ -200,7 +210,7 @@ So sind bspw. viele Ökonom\*innen, vor allem der Neoklassik bzw. des ökonomisc
 Kritiker\*innen argumentieren, dass eine solche klare Trennung zwischen positiven und normativen Aussagen, zwischen Fakten und Werten, für Sozialwissenschaften, wie die Volkswirtschaftslehre eine ist, nicht möglich ist und entsprechend eine objektive und wertefreie Analyse verunmöglicht (siehe bspw. @davisEconomistsOddStand2016). Hilary Putnam argumentiert, dass Fakten und Werte oft nicht klar trennbar, sondern ineinander verschränkt sind [@putnamCollapseFactValue2002]. Auch hier finden wir wieder ontologische und epistemologische Grundannehmen, die zu solchen Schlüssen führen. Dabei kann der Begriff **des „Konstruktivismus“** als Sammelbegriff für viele epistemologische Strömungen gelten. Diese Strömungen gehen alle auf die eine oder andere Art von einer sozial konstruierten Realität aus. Obwohl einige Strömungen ontologisch von einer objektiven Realität ausgehen, sind sich die Strömungen einig, dass die Art wie wir Wissen generieren und was wir als Wissen anerkennen, historisch und gesellschaftlich spezifisch ist. Entsprechend lässt sich aus dem Konstruktivismus die Position ableiten, dass wissenschaftliche Erkenntnisse immer auch durch gesellschaftliche Kontexte, historische Entwicklungen und normative Vorannahmen geprägt werden. So sind ökonomische Konzepte und Theorien in ihrer Konstruktion immer schon auch von Werten und Weltansichten geprägt. Welche Fragen gestellt werden und welche Antworten plausibel erscheinen, hängt somit auch von den jeweiligen Perspektiven der Forschenden ab. Für die Wirtschaftswissenschaften bedeutet dies, dass unterschiedliche theoretische Ansätze legitimerweise zu unterschiedlichen Interpretationen der wirtschaftlichen Realität oder Realitäten gelangen können.
 
 
-Unsere Position: Wir halten eine strikte Trennung von positiv und normativ für nicht möglich und orientieren uns an einem konstruktivistischen Wissenschaftsverständnis. Schon die unterschiedlichen Auffassungen darüber, wie Volkswirtschaftslehre definiert werden kann, zeigen, dass implizit stets Werteurteile gemacht werden. So kann eine Perspektive auf die effiziente Allokation von knappen Ressourcen in einer Gesellschaft fokussieren, eine andere darauf, dass die Armut überwunden wird und die Grundbedürfnisse von allen Menschen in einer Volkswirtschaft gedeckt werden. Sobald wir eine Perspektive zulasten einer andern heranziehen, haben wir ein erstes Werteurteil gefällt. In Kapitel 2.2 setzen wir uns genauer mit den impliziten Werteurteilen der Neoklassik, die sich als positive Volkswirtschaftslehre versteht, auseinander.
+Unsere Position: Wir halten eine strikte Trennung von positiv und normativ für nicht möglich und orientieren uns an einem konstruktivistischen Wissenschaftsverständnis. Schon die unterschiedlichen Auffassungen darüber, wie Volkswirtschaftslehre definiert werden kann, zeigen, dass implizit stets Werteurteile gemacht werden. So kann eine Perspektive auf die effiziente Allokation von knappen Ressourcen in einer Gesellschaft fokussieren, eine andere darauf, dass die Armut überwunden wird und die Grundbedürfnisse von allen Menschen in einer Volkswirtschaft gedeckt werden. Sobald wir eine Perspektive zulasten einer andern heranziehen, haben wir ein erstes Werteurteil gefällt.
 
 
 Das heisst aber nicht, dass es keine Fakten gibt oder alle Ansätze gleich valide sind, und auch nicht, dass es keine Realität unabhängig von unserer Interpretation gibt - wir können uns dieser nur mehr oder weniger annähern. Wie jede andere Wissenschaft hat sich die Volkswirtschaftslehre an wissenschaftlichen Prinzipien und Methoden zu orientieren. Zusätzlich sollen Annahmen und Werturteile explizit und transparent gemacht werden.
@@ -213,7 +223,7 @@ Die Auseinandersetzung, ob die Volkswirtschaftslehre frei von jeglichen Werturte
 
 
 ::: {.callout-tip collapse="true"}
-### Exkurs: Müssen Annahmen realistisch sein? (Nur bei Interesse)
+### Exkurs: Müssen Annahmen realistisch sein?
 
 Neben der Kritik der implizierten Werturteile hinter der neoklassischen Ökonomik führt auch der explizite Annahmerahmen zu kontroversen Diskussionen, insbesondere inwieweit Annahmen die Wirklichkeit realistisch abbilden muss. Müssen die Ausgangsannahmen wie bspw. das Vorhandensein vollkommener Konkurrenz realistisch sein, um wertvolle Erkenntnisse zu gewinnen? Auf den ersten Blick ist der Befund eindeutig: unrealistische oder unvollständige Annahmen müssten auch zu falschen Schlussfolgerungen führen. Nach dem US-Amerikaner Paul Samuelson (1915-2009), einer der bekanntesten Ökonomen des 20. Jahrhunderts, ist es unmöglich, von nachweislich falschen Annahmen auf wahre Erkenntnisse zu schliessen. Vertreter des sogenannten **Instrumentalismus** argumentieren jedoch anders. Demnach müsse man angesichts der Komplexität menschlichen Verhaltens in der Analyse geradezu abstrahieren und Unwesentliches aussenvorlassen. Der US-amerikanische Ökonom Milton Friedmann (1912-2006), ebenfalls einer der bekanntesten Ökonomen des 20. Jahrhunderts, begründet auf der Suche nach einer effizienten Methode, um weitreichende Einsichten und Handlungsempfehlungen zu entdecken, gar eine anti-realistische Extremposition. Das Analysieren im Rahmen einer Scheinwelt wird zu einer unproblematischen Notwendigkeit erklärt:
 
@@ -307,7 +317,7 @@ In diesem Kurs orientieren wir uns im Folgendem explizit an einem Verständnis, 
 Wie wir in diesem Kapitel gesehen haben, gibt es nicht die eine Ökonomik, sondern eine Vielzahl von Denkschulen mit unterschiedlichen Grundannahmen, Fragestellungen und Perspektiven auf wirtschaftliche Phänomene. Wir haben zudem festgehalten, dass auch wissenschaftliche Perspektiven nie ganz neutral sind, sondern immer schon Werturteile enthalten. Dieses Skript orientiert sich am Ansatz der **nachhaltigen Ökonomie**. Dabei steht die Frage im Vordergrund wie sich unsere Wirtschaft nachhaltig gestalten lässt. Damit hat die nachhaltige Ökonomie explizit einen normativen Charakter. Wir werden sehen, dass die Beantwortung dieser Frage auch stark vom konkreten Nachhaltigkeitsverständnis abhängt, aber auch von grundlegenden Fragen nach den Zielen von wirtschaftlichem Handeln, sowie dem Verständnis vom Gegenstandsbereich der Ökonomie selbst.
 
 
-Ein erster Annäherungspunkt bietet der oft gezogener Gegensatz in Debatten um eine nachhaltigere Wirtschaft ist jener zwischen **Green Growth** und **Postwachstum**[^3] (Verweis auf Kapitel).
+Ein erster Annäherungspunkt bietet der oft gezogener Gegensatz in Debatten um eine nachhaltigere Wirtschaft ist jener zwischen **Green Growth** und **Postwachstum**[^3].
 
 [^3]: Häufig wird auch der Begriff Degrowth verwendet. Obwohl die zwei Begriffe nicht vollständig deckungsgleich sind, überschneiden sie sich grösstenteils. Wir werden hier deshalb der Einfachheit halber jeweils den Begriff Postwachstum verwenden. Die Stärke des Begriffs Postwachstum liegt unserer Ansicht vor allem darin, dass er nicht so sehr eine mögliche Schrumpfung der Wirtschaft betont, sondern viel mehr die notwendige Wachstumsunabhängigkeit.
 
