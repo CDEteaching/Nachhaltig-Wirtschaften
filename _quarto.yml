@@ -1,0 +1,116 @@
+project:
+  type: book
+
+  output-dir: docs
+  resources:
+    - "*.png"
+    - "*.jpeg"
+    - "*.jfif"
+    - "*.svg"
+
+execute:
+  engine: knitr
+  echo: false
+
+lang: de
+
+book:
+  title: "Einführung Nachhaltige Ökonomie"
+  subtitle: "Wohlstand für alle – innerhalb ökologischer Grenzen"
+  favicon: images/cdelogo_e.png
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+
+  sidebar:
+    search: true
+    logo: images/cdelogo_e.png
+    tools:
+      - icon: file-earmark-pdf
+        href: https://github.com/CDEteaching/Nachhaltig-Wirtschaften/blob/main/pdf/NachhaltigWirtschaften.pdf
+        text: "Kursskript (PDF)"
+
+  page-footer:
+    border: true
+    left: |
+      "This a product of <a href="www.cde.unibe.ch/">![](/images/cdelogo_e.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+    center: |
+
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-SA 4.0 Int License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+  chapters:
+  - index.qmd
+  - part: "Nachhaltige Ökonomie"
+    chapters:
+    - 1_oekonomie-denken/1_intro.qmd
+    - 2_gegenstandsbereich/2_intro.qmd
+    - 3_problemanalyse/3_intro.qmd
+    - 4_strategien/4_intro.qmd
+    - 5_staat-leitbilder/5_intro.qmd
+    - 6_zusammenfuehrung/6_intro.qmd
+  - references.qmd
+
+bibliography: references.bib
+
+number-depth: 3
+
+format:
+  html:
+    mainfont: Roboto
+    monofont: Fira Code
+    highlight-style: arrow
+    monobackgroundcolor: "#F7F7F7"
+    theme:
+      light: [theme.scss]
+      dark: [darkly]
+    toggle: true
+    default-mode: dark
+    callout-icon: false
+    css: webex.css
+    include-after-body: webex.js
+    df-print: kable
+
+  pdf:
+    output-file: NachhaltigWirtschaften
+    # render pdf to separate folder -> do it manually via terminal
+    # "quarto render --to pdf --output-dir pdf --output NachhaltigWirtschaften.pdf"
+    title: "Einführung Nachhaltige Ökonomie"
+    documentclass: scrreprt
+    classoption: ["oneside", "openany"]
+
+    mainfont: "Alegreya"
+    sansfont: "Source Sans Pro"
+    urlcolor: "blue"
+
+    number-depth: 3
+    papersize: a4
+    fig-pos: "H"
+    pdf-engine: xelatex
+    callout-icon: false
+
+    keep-tex: true
+    tables: true
+    include-in-header:
+      text: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{microtype}
+        \clubpenalty=10000
+        \widowpenalty=10000
+        \usepackage[font=footnotesize,labelfont={footnotesize}]{caption}
+        \usepackage[skins,breakable]{tcolorbox}
+        \definecolor{selbstviolet}{HTML}{6F42C1}
+        \definecolor{selbstvioletbg}{HTML}{F3EEFA}
+        \newtcolorbox{selbststudienphase}[1][]{
+          colback=selbstvioletbg,
+          colframe=selbstviolet,
+          coltitle=white,
+          colbacktitle=selbstviolet,
+          fonttitle=\bfseries,
+          breakable,
+          boxrule=0.6pt,
+          arc=1mm,
+          title=Selbststudienphase
+        }

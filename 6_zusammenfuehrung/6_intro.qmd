@@ -1,0 +1,71 @@
+---
+title: "Nachhaltige Ökonomie: Zusammenführung"
+lightbox: true
+format: html
+tbl-cap-location: top
+fig-cap-location: bottom
+---
+
+::: {.callout-note .leitfrage}
+### Leitfrage
+
+Leitfrage: Wie lässt sich aus allem bisher Gelernten eine kohärente Antwort auf unsere Ausgangsfrage bauen – wie erreichen wir als Gesellschaft das Ziel des Wohlstands innerhalb ökologischer Grenzen?
+:::
+
+Am Ende von Kapitel 1 haben wir angekündigt, dass sich dieses Skript am Ansatz der **nachhaltigen Ökonomie** orientiert – und dabei bewusst offengelassen, was das konkret bedeutet. Wir hatten damals festgehalten: Die nachhaltige Ökonomie startet nicht mit einer fixen Antwort ("mehr grünes Wachstum" oder "Schrumpfung"), sondern mit den **Zielen** wirtschaftlichen Handelns selbst. Genau dieser Frage – was das Ziel wirtschaftlichen Handelns eigentlich ist – sind wir seither durch das ganze Skript nachgegangen.
+
+In diesem letzten Kapitel führen wir diese Fäden zusammen. Die nachhaltige Ökonomie ist dabei kein weiteres, viertes Leitbild neben Marktliberalismus, Wohlfahrtskapitalismus und Postwachstum, sondern ein Rahmen, der aus den Zielen selbst ableitet, was es braucht – und der damit quer zu den bisher diskutierten Leitbildern liegt. Wir konkretisieren diesen Ansatz nun entlang dreier Ziele – globale ökologische Gerechtigkeit, gutes Leben für alle, Wachstumsunabhängigkeit – und sechs Kernelementen, die uns eine kohärente Antwort auf die Ausgangsfrage dieses Skripts ermöglichen: Wie muss eine Wirtschaft gestaltet sein, damit sie ihr eigentliches Ziel tatsächlich erreicht?
+
+Nachhaltige Ökonomie lässt sich, in Anlehnung an Schmelzer und Vetter [-@schmelzerDegrowthPostwachstum2019] sowie Rogall [-@rogallNachhaltigeOkonomieOkonomische2012], über drei Ziele fassen:
+
+**Globale ökologische Gerechtigkeit**: Sie schliesst Umwelt- und Klimagerechtigkeit ein sowie Debatten um Post-Extraktivismus, also die Kritik an ressourcenintensiven Extraktions- und Exportlogiken [@acostaPostExtractivismDiscoursePractice2017], und Post-Development-Ansätze, die das westliche Entwicklungsmodell als eurozentrisch und normativ hinterfragen [@klapeerPostDevelopment2023].
+
+**Gutes Leben für alle**: nicht Wachstum als Selbstzweck, sondern ein Wirtschaften, das tatsächliche Bedürfnisse befriedigt.
+
+**Wachstumsunabhängigkeit**: Die Fähigkeit einer Wirtschaft, ihre Kernfunktionen (Beschäftigung, soziale Sicherung, öffentliche Finanzen) zu erfüllen, ohne strukturell auf stetiges BIP-Wachstum angewiesen zu sein.
+
+Diese drei Ziele sind bewusst nicht auf einer Wachstums- oder Schrumpfungslogik aufgebaut. Sie lassen offen, ob und wo Wachstum stattfindet, solange die drei Ziele erreicht werden. Genau darin liegt die Brückenfunktion: Nachhaltige Ökonomie fragt nicht "Wachstum ja oder nein", sondern "was braucht es, damit ökologische Gerechtigkeit und ein gutes Leben für alle möglich werden, unabhängig davon, ob die Wirtschaft dabei wächst, stagniert oder schrumpft".
+
+**Sechs Kernelemente**
+
+Nach Rogall [-@rogallNachhaltigeOkonomieOkonomische2012] sowie Novy et al. [-@novyZukunftfahigesWirtscchaften2020; -@novyZukunftsfaehigesWirtschaften2023] lässt sich der Ansatz in sechs Kernelementen konkretisieren:
+
+- **Starke statt schwache Nachhaltigkeit**: Natürliches Kapital ist nur begrenzt durch Sach- oder Humankapital ersetzbar.
+
+- **Pluralistischer Ansatz**: Nachhaltige Ökonomie bezieht sich nicht auf eine einzelne ökonomische Theorie, sondern integriert ökologische, institutionelle, feministische und post-keynesianische Perspektiven.
+
+- **Nachhaltigkeitsparadigma statt Wachstumsparadigma**: Hier liegt die eigentliche Kontroverse der Wachstumsfrage: Wie lässt sich das Wachstumsparadigma durch ein Nachhaltigkeitsparadigma ersetzen? Die Antwort ist "selektives Wachstum": Sektoren, die zu Nachhaltigkeitszielen beitragen (etwa erneuerbare Energien, Pflege, Bildung), können wachsen, andere (etwa fossile Energieträger, Rüstung) müssen schrumpfen. Wachstum wird so vom Ziel zur abhängigen Variablen.
+
+- **Ethische Prinzipien**: Vorsorge statt Nachsorge, sowie intra- und intergenerative Gerechtigkeit statt reiner Pareto-Effizienz. Es geht nicht nur um Effizienzziele, sondern explizit auch um Verteilungsfragen. Verantwortung wird dabei doppelt gedacht: als Konsumentensouveränität (Verantwortung für sich selbst) und als Verantwortung für Umwelt und Mitwelt.
+
+- **Änderung der Rahmenbedingungen**: politisch-rechtliche Instrumente wie Standard-Preis-Ansätze oder Cap-and-Trade, meritorische Güter, sowie eine nachhaltige Wirtschaftspolitik, etwa Finanzierung von Arbeit statt Arbeitslosigkeit, Arbeitszeitreduktion, Förderung der regionalen Wirtschaft.
+
+- **Inter- und transdisziplinäre Zusammenarbeit**: Die Komplexität der Herausforderungen erfordert eine Zusammenarbeit über Fachgrenzen hinweg, zwischen Wissenschaft, Politik und Gesellschaft.
+
+**Ausblick: Ansätze der Selbststudienphase**
+
+In den folgenden Selbststudienphasen wollen wir uns konkreter mit möglichen Ansätzen der Nachhaltigen Ökonomie beschäftigen und der Frage nachgehen, wie wir die Ziele der Nachhaltigen Ökonomie erreichen können. Dabei werden wir sehen, dass je nachdem, welches politische Leitbild wir zur Grundlage nehmen, sich auch die möglichen Ansätze unterscheiden. Wir werden dabei auf Ansätze innerhalb des Wohlfahrtskapitalistischen Leitbildes und des Leitbildes des Postwachstum fokussieren, da sich das Leitbild des Marktliberalismus unserer Meinung nach grösstenteils ausserhalb der Nachhaltigen Ökonomie bewegt. In der nächsten Selbststudienphase werden wir uns mit folgenden Ansätzen befassen:
+
+Wohlfahrtkapitalistisches Leitbild:
+
+Green Growth
+
+Kreislaufwirtschaft
+
+Leitbild des Postwachstums:
+
+Wachstumsunabhängige Institutionen
+
+Suffiziente Lebensstile
+
+Collective Action
+
+(Vor)sorgendes Wirtschaften
+
+Überwindung imperialer Lebensweise
+
+::: {.callout-caution collapse="true"}
+### Weiterführende Literatur
+
+Bei Interesse können Sie sich zur Veranschaulichung zur Green Growth Position [das Statement von Paolo Gentiloni](https://www.youtube.com/watch?v=2rYNewZEazA&t=1129s) (European Commissioner for Economy) der Beyond Growth Konferenz anschauen. Die Postwachstumsposition wird gut in [einem Input von Timothée Parrique](https://www.youtube.com/watch?v=vij3Q6bE6X4) an der selben Konferenz veranschaulicht.
+:::

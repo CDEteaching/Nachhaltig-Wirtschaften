@@ -1,0 +1,100 @@
+# Vorwort {.unnumbered}
+
+Das folgende Skript enthält die Lernsequenzen für den Kurs „[Nachhaltige Ökonomie](https://ilias.unibe.ch/go/crs/3443640)“, die in den Selbststudienphasen erarbeitet werden. Das Skript dient zur Erleichterung der Bearbeitung der Sequenzen, da Ilias keine befriedigende Lösung bietet, die Lernsequenzen herunterzuladen. Bitte denken Sie daran, dass Sie sich an den Selbststudienphasen auf Ilias orientieren. Dort finden Sie zusätzliche Texte, Informationen und Übungen, die Sie bearbeiten müssen. Zudem sind viele Abschnitte interaktiv, enthalten Links und Videos. Insgesamt enthält das Skript sechs Kapitel, die Sie in den Selbststudienphasen 1 bis 5 erarbeiten. Neben den Ausführungen im Skript finden Sie immer auch Hinweise auf weiterführendes Material und Literatur. Bei Interesse können Sie dies gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich erschienene Einführungslehrbuch *Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah* von Bäuerle et al. (2026) [@bauerleGrundfragenOkonomie2026]. Darin können Sie sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen möchten. Wir stellen gerne weiterführendes Material zur Verfügung.
+
+## Beitragsmatrix (CRediT-Taxonomie) {.unnumbered}
+
+```{r}
+library(kableExtra)
+is_pdf <- knitr::is_latex_output()
+
+orcid_link <- function(id) {
+  if (is.na(id)) return("—")
+  if (is_pdf) {
+    sprintf("\\href{https://orcid.org/%s}{%s}", id, id)
+  } else {
+    sprintf('<a href="https://orcid.org/%s" target="_blank">%s</a>', id, id)
+  }
+}
+
+esc <- function(x) if (is_pdf) gsub("&", "\\&", x, fixed = TRUE) else x
+
+df <- data.frame(
+  Name = c("Christoph Bader", "Nicolà Bezzola", "Samuel Brülisauer"),
+  Affiliation = rep("CDE, Universität Bern", 3),
+  ORCID = c(
+    orcid_link("0000-0002-8991-353X"), orcid_link(NA), orcid_link("0000-0002-2196-1922")
+  ),
+  `Rollen (CRediT)` = esc(c(
+    "Conceptualization, Software, Supervision, Writing – original draft, Writing – review & editing, Project administration",
+    "Conceptualization, Writing – original draft, Writing – review & editing",
+    "Conceptualization, Writing – original draft, Writing – review & editing"
+  )),
+  check.names = FALSE
+)
+
+df |>
+  kbl(booktabs = TRUE, align = "l", escape = FALSE) |>
+  kable_styling(
+    bootstrap_options = c("striped", "hover", "condensed"),
+    latex_options = if (is_pdf) c("hold_position") else NULL,
+    full_width = !is_pdf,
+    font_size = if (is_pdf) 8 else NULL
+  ) |>
+  column_spec(1, bold = TRUE, width = if (is_pdf) "2.5cm" else NA) |>
+  column_spec(4, width = if (is_pdf) "6cm" else NA) |>
+  row_spec(0, bold = TRUE)
+```
+
+## Wie Sie mit diesem Skript arbeiten können
+
+
+
+Die meisten Kapitel in diesem Skript beinhalten verschiedene strukturierende Elemente:
+
+::: {.callout-note .leitfrage collapse="false"}
+#### Leitfragen
+Leitende Frage, an der sich das jeweilige Kapitel oder der jeweilige Abschnitt orientiert.
+:::
+
+::: {.callout-note collapse="false"}
+#### Vertiefungsfragen
+Für jedes Unterkapitel sind einige Vertiefungsfragen aufgeführt. Diese dienen einerseits der selbstständigen Überprüfung des Wissens des jeweiligen Bereichs, sollen andererseits aber auch Gedanken und Reflexion anstossen.
+:::
+
+::: {.callout-tip collapse="false"}
+#### Exkurse
+Wen es genauer interessiert, darf sich in verschiedenen als solche gekennzeichnete Exkursboxen vertiefter mit einem Thema auseinandersetzen. Diese sind jedoch keine Pflichtlektüre.
+:::
+
+::: {.callout-caution collapse="false"}
+### Weiterführende Literatur
+Vertiefende Literatur, für wer es genauer wissen will
+:::
+
+::: {.content-visible when-format="html"}
+::::: selbststudienphase
+::: selbststudienphase-header
+Selbststudienphase
+:::
+
+::: selbststudienphase-body
+Hier finden Sie Informationen zu den Selbststudienphasen
+:::
+:::::
+:::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{selbststudienphase}
+Hier finden Sie Informationen zu den Selbststudienphasen
+\end{selbststudienphase}
+```
+:::
+
+Das Lehrbuch *Grundfragen der Ökonomie* von Bäuerle, Keil, Reinke und Wasenitz (Hrsg.) geht auf viele besprochene Thematiken ergänzend ein. Im Skript sind die passenden Kapitel des Lehrbuchs jeweils erwähnt.*↗ Lehrbuchkapitel 1 und 2*
+
+
+
+
+
