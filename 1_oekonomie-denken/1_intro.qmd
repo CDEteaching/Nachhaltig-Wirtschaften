@@ -126,7 +126,17 @@ Untenstehend finden Sie Ausschnitte der Vorlesung von Walter Ötsch zur ökonomi
 Walter Ötsch ist Professor an der Hochschule für Gesellschaftsgestaltung in Koblenz. Als Ökonom und Kulturhistoriker forscht und publiziert er zu gesellschaftspolitischen und ökonomischen Themen wie Populismus und der gesellschaftlichen Rolle von Märkten.
 
 
-Die Videos finden Sie über diesen Link. [video auf opencast, dann hier einbetten]
+```{=html}
+<iframe src="https://tobira.unibe.ch/~embed/!v/DnszYHCdNsM" title="Vorlesung Walter Ötsch zur ökonomischen Theoriengeschichte Teil 1 von 3" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+```
+
+```{=html}
+<iframe src="https://tobira.unibe.ch/~embed/!v/MD_SJ67slhO" title="Vorlesung Walter Ötsch zur ökonomischen Theoriengeschichte Teil 2 von 3" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+```
+
+```{=html}
+<iframe src="https://tobira.unibe.ch/~embed/!v/Lro51zCgsc8" title="Vorlesung Walter Ötsch zur ökonomischen Theoriengeschichte Teil 3 von 3" allow="fullscreen" allowfullscreen style="width: 100%; aspect-ratio: 16 / 9; border: 0;"></iframe>
+```
 :::
 :::::
 
