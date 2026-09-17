@@ -1,6 +1,6 @@
 # Vorwort {.unnumbered}
 
-Das folgende Skript enthält die Lernsequenzen für den Kurs „[Nachhaltige Ökonomie](https://ilias.unibe.ch/go/crs/3443640)“, die in den Selbststudienphasen erarbeitet werden. Das Skript dient zur Erleichterung der Bearbeitung der Sequenzen, da Ilias keine befriedigende Lösung bietet, die Lernsequenzen herunterzuladen. Bitte denken Sie daran, dass Sie sich an den Selbststudienphasen auf Ilias orientieren. Dort finden Sie zusätzliche Texte, Informationen und Übungen, die Sie bearbeiten müssen. Zudem sind viele Abschnitte interaktiv, enthalten Links und Videos. Insgesamt enthält das Skript sechs Kapitel, die Sie in den Selbststudienphasen 1 bis 5 erarbeiten. Neben den Ausführungen im Skript finden Sie immer auch Hinweise auf weiterführendes Material und Literatur. Bei Interesse können Sie dies gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich erschienene Einführungslehrbuch *Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah* von Bäuerle et al. (2026) [@bauerleGrundfragenOkonomie2026]. Darin können Sie sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen möchten. Wir stellen gerne weiterführendes Material zur Verfügung.
+Das folgende Skript enthält die Lernsequenzen für den Kurs „[Nachhaltige Ökonomie](https://ilias.unibe.ch/go/crs/3701540){target="_blank"}“, die in den Selbststudienphasen erarbeitet werden. Das Skript dient zur Erleichterung der Bearbeitung der Sequenzen, da Ilias keine befriedigende Lösung bietet, die Lernsequenzen herunterzuladen. Bitte denken Sie daran, dass Sie sich an den Selbststudienphasen auf Ilias orientieren. Dort finden Sie zusätzliche Texte, Informationen und Übungen, die Sie bearbeiten müssen. Zudem sind viele Abschnitte interaktiv, enthalten Links und Videos. Insgesamt enthält das Skript sechs Kapitel, die Sie in den Selbststudienphasen 1 bis 5 erarbeiten. Neben den Ausführungen im Skript finden Sie immer auch Hinweise auf weiterführendes Material und Literatur. Bei Interesse können Sie dies gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich erschienene Einführungslehrbuch *Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah* von @bauerleGrundfragenOkonomie2026. Darin können Sie sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen möchten. Wir stellen gerne weiterführendes Material zur Verfügung.
 
 ## Beitragsmatrix (CRediT-Taxonomie) {.unnumbered}
 
@@ -48,31 +48,33 @@ df |>
 
 ## Wie Sie mit diesem Skript arbeiten können
 
-
-
 Die meisten Kapitel in diesem Skript beinhalten verschiedene strukturierende Elemente:
 
 ::: {.callout-note .leitfrage collapse="false"}
 #### Leitfragen
+
 Leitende Frage, an der sich das jeweilige Kapitel oder der jeweilige Abschnitt orientiert.
 :::
 
 ::: {.callout-note collapse="false"}
-#### Vertiefungsfragen
+#### Vertiefungsfragen und Übungen
+
 Für jedes Unterkapitel sind einige Vertiefungsfragen aufgeführt. Diese dienen einerseits der selbstständigen Überprüfung des Wissens des jeweiligen Bereichs, sollen andererseits aber auch Gedanken und Reflexion anstossen.
 :::
 
 ::: {.callout-tip collapse="false"}
-#### Exkurse
+#### Exkurse und Beispiele
+
 Wen es genauer interessiert, darf sich in verschiedenen als solche gekennzeichnete Exkursboxen vertiefter mit einem Thema auseinandersetzen. Diese sind jedoch keine Pflichtlektüre.
 :::
 
 ::: {.callout-caution collapse="false"}
-### Weiterführende Literatur
+#### Weiterführende Literatur
+
 Vertiefende Literatur, für wer es genauer wissen will
 :::
 
-::: {.content-visible when-format="html"}
+:::::: {.content-visible when-format="html"}
 ::::: selbststudienphase
 ::: selbststudienphase-header
 Selbststudienphase
@@ -82,7 +84,7 @@ Selbststudienphase
 Hier finden Sie Informationen zu den Selbststudienphasen
 :::
 :::::
-:::
+::::::
 
 ::: {.content-visible when-format="pdf"}
 ```{=latex}
@@ -92,9 +94,4 @@ Hier finden Sie Informationen zu den Selbststudienphasen
 ```
 :::
 
-Das Lehrbuch *Grundfragen der Ökonomie* von Bäuerle, Keil, Reinke und Wasenitz (Hrsg.) geht auf viele besprochene Thematiken ergänzend ein. Im Skript sind die passenden Kapitel des Lehrbuchs jeweils erwähnt.*↗ Lehrbuchkapitel 1 und 2*
-
-
-
-
-
+Das Lehrbuch *Grundfragen der Ökonomie* von Bäuerle, Keil, Reinke und Wasenitz (Hrsg.) [-@bauerleGrundfragenOkonomie2026] geht auf viele besprochene Thematiken ergänzend ein. Im Skript sind die passenden Kapitel des Lehrbuchs jeweils erwähnt.*↗ Lehrbuchkapitel 1 und 2*

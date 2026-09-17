@@ -12,7 +12,7 @@ execute:
   engine: knitr
   echo: false
 
-lang: de
+lang: de-CH
 
 book:
   title: "Einführung Nachhaltige Ökonomie"
