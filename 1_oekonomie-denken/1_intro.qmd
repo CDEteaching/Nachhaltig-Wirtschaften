@@ -112,6 +112,19 @@ Walter Ötsch ist Professor an der Hochschule für Gesellschaftsgestaltung in Ko
 ```
 :::
 :::::
+::::::::::
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{selbststudienphase}
+In der Online-Version finden Sie an dieser Stelle drei Video-Ausschnitte aus der Vorlesung von Walter Ötsch zur ökonomischen Theoriengeschichte. Walter Ötsch beschreibt darin, wie sich die Ökonomik von der Moralwissenschaft unter Adam Smith (1723-1790) zu einer Wissenschaft mit einem biologisch determinierten Menschenbild unter Thomas Malthus (1766-1834) und David Ricardo (1772-1823) entwickelt. In diesem Prozess kommen naturwissenschaftliche Metaphern (Uhr-System, Waage-Gleichgewicht, Computer-Information) immer mehr zum Tragen. Diesen Prozess hat die Entwicklung der Neoklassik stark geprägt.
+
+Walter Ötsch ist Professor an der Hochschule für Gesellschaftsgestaltung in Koblenz. Als Ökonom und Kulturhistoriker forscht und publiziert er zu gesellschaftspolitischen und ökonomischen Themen wie Populismus und der gesellschaftlichen Rolle von Märkten.
+
+Die vollständige Vorlesung finden Sie unter: https://www.youtube.com/watch?v=zS3QgFE5ASE
+\end{selbststudienphase}
+```
+:::
 
 ::: {.callout-tip collapse="true"}
 #### Exkurs: Geschichte des Homo Oeconomicus
@@ -257,7 +270,6 @@ Diese Zuspitzung ist didaktisch hilfreich, weil sie eine reale Debatte sichtbar 
 Genau hier setzt die nachhaltige Ökonomie an: Sie positioniert sich nicht auf einem der beiden Pole, sondern fragt, was ökologische und soziale Nachhaltigkeit erfordern und leitet erst daraus ab, welche Rolle Wachstum dabei spielen kann oder muss. Sie startet also nicht mit einer fixen Antwort („mehr grünes Wachstum“ oder „Schrumpfung“), sondern fragt stattdessen nach den Zielen wirtschaftlichen Handelns.
 
 Wir werden hier noch keine Definition einer nachhaltigen Ökonomie vorlegen, sondern uns über die nächsten Kapitel einem Verständnis von nachhaltiger Ökonomie annähern. Dabei werden wir uns im nächsten Kapitel dem Gegenstandsbereich der Ökonomie annähern und uns unter andrem mit der Frage beschäftigen, was eigentlich das Ziel von wirtschaftlichem Handeln ist und was wir unter Wohlstand verstehen. Danach wollen wir uns mit den ökologischen und sozialen Grenzen und Herausforderungen unseres gegenwärtigen Wirtschaftssystems beschäftigen. Eine nachhaltige Ökonomie verfolgt den Anspruch, Ansätze zur Überwindung dieser Herausforderungen zu entwickeln. Danach schauen wir uns in den Kapiteln 4 und 5 mögliche Strategien und Rollen des Staates an. Im abschliessenden Kapitel dieses Skripts wollen wir dann daraus ein klareres Bild einer nachhaltigen Ökonomie zeichnen können.
-::::::::::
 
 [^1_intro-2]: In diesem Text wird der englische Begriff economic man verwendet, wenn es grundsätzlich um eine Idee eines oder einer ökonomischen Agent\*in geht. Dies da der Begriff homo oeconomicus für die gegenwärtig dominante Konzeption steht und economic man in der (vorwiegend englischen) Literatur in diesem Sinne verwendet wird. Der Begriff ist dahingehend problematisch, dass er den Ausschluss einer economic woman impliziert. Betrachten wir aber die Ausrichtung der Wirtschaftswissenschaften heute und auch in der Geschichte, so ist eine solche Darstellung der Wirtschaftswissenschaften bedauerlicherweise gar nicht so abwegig, wie uns die feministische Ökonomie aufzeigt.
 
