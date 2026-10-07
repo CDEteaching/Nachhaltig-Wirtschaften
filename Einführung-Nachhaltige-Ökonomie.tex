@@ -256,6 +256,10 @@
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
 \hypersetup{
   pdftitle={Einführung Nachhaltige Ökonomie},
   pdflang={de-CH},
@@ -308,7 +312,7 @@ weiterführendes Material und Literatur. Bei Interesse können Sie dies
 gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von
 Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich
 erschienene Einführungslehrbuch \emph{Grundfragen der Ökonomie: Plural
--- Reflexiv -- Lebensnah} von Bäuerle u.~a. (2026). Darin können Sie
+-- Reflexiv -- Lebensnah} von Bäuerle et al. (2026). Darin können Sie
 sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft
 auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns
 zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen
@@ -456,7 +460,7 @@ Eigene Darstellung nach Engelkamp und Sell (2013, 3).}
 \textbf{Die Betriebswirtschaftslehre} „ist die Lehre von den
 wirtschaftlichen, organisatorischen, technischen sowie finanziellen
 Abläufen in Unternehmen und den unterschiedlichen wirtschaftlichen
-Institutionen`` (Friedli u.~a. 2019, 16). Darin entwickeln Forschende
+Institutionen`` (Friedli et al. 2019, 16). Darin entwickeln Forschende
 eine einzelwirtschaftliche Perspektive auf den jeweiligen
 Untersuchungsgegenstand.
 
@@ -497,7 +501,7 @@ untersucht.
 \subsection[Ökonomieverständnisse in der
 Geschichte]{\texorpdfstring{Ökonomieverständnisse in der
 Geschichte\footnote{Dieser kurze Überblick basiert zu Teilen auf Bäuerle
-  u.~a. (2026).}}{Ökonomieverständnisse in der Geschichte}}\label{uxf6konomieverstuxe4ndnisse-in-der-geschichte1_intro-1}
+  et al. (2026).}}{Ökonomieverständnisse in der Geschichte}}\label{uxf6konomieverstuxe4ndnisse-in-der-geschichte1_intro-1}
 
 Der Begriff Ökonomie taucht das erste Mal in der westlichen
 Geistesgeschichte in der griechischen Antike als Lehre der
@@ -595,7 +599,7 @@ unterschiedliche Vorstellungen davon entwickelt, was die
 Volkswirtschaftslehre eigentlich untersucht. Dabei lassen sich zwei
 grundsätzlich verschiedene Arten unterscheiden, wie
 Volkswirtschaftslehre verstanden wird. Karl Polanyi hat diese
-Unterscheidung bereits 1957 gemacht (Polanyi u.~a. 1957):
+Unterscheidung bereits 1957 gemacht (Polanyi et al. 1957):
 
 \begin{itemize}
 \item
@@ -984,7 +988,7 @@ Kritiker*innen argumentieren, dass eine solche klare Trennung zwischen
 positiven und normativen Aussagen, zwischen Fakten und Werten, für
 Sozialwissenschaften, wie die Volkswirtschaftslehre eine ist, nicht
 möglich ist und entsprechend eine objektive und wertefreie Analyse
-verunmöglicht (siehe bspw. DeMartino u.~a. 2016). Hilary Putnam
+verunmöglicht (siehe bspw. DeMartino et al. 2016). Hilary Putnam
 argumentiert, dass Fakten und Werte oft nicht klar trennbar, sondern
 ineinander verschränkt sind (Putnam 2002). Auch hier finden wir wieder
 ontologische und epistemologische Grundannehmen, die zu solchen
@@ -1171,7 +1175,7 @@ Denkstile nennen, da diese üblicherweise so bezeichnet werden.
 
 \href{https://ilias.unibe.ch/go/file/3803488}{Yuval Harari und die
 Peugeot Legende in seinem Buch ``Eine kurze Geschichte der
-Menschheit''}\{target=``\_blank'')\\
+Menschheit''}\\
 Seine These: Der wahrhaft hinreichende Unterschied zwischen uns und den
 anderen Tieren, ist die Fähigkeit, kooperative Netzwerke zu schaffen, in
 denen mitunter Millionen von völlig Fremden miteinander auf gemeinsame
@@ -1334,7 +1338,7 @@ Debatten um eine nachhaltigere Wirtschaft ist jener zwischen
 Green-Growth-Ansätze (z.B. OECD 2011; World Bank 2012) gehen davon aus,
 dass sich Wirtschaftswachstum und sinkende Umweltbelastung miteinander
 vereinbaren lassen -- die Wirtschaft soll wachsen, aber ``grün'' werden.
-Postwachstumsansätze (z.B. D'Alisa u.~a. 2016; Jackson 2009; Seidl und
+Postwachstumsansätze (z.B. D'Alisa et al. 2016; Jackson 2009; Seidl und
 Zahrnt 2010) argumentieren dagegen, dass gerade das Wachstum -- und der
 damit verbundene Wachstumszwang kapitalistischer Ökonomien (siehe
 Kapitel 2.1.3, \emph{Wirtschaftswachstum} und Kapitel 2.5.4, \emph{Was
@@ -1355,7 +1359,7 @@ ein gutes Leben für alle ermöglicht.
 }
 
 \caption{Abbildung 5. Nachhaltige Ökonomie. Quelle: Eigene Darstellung,
-adaptiert nach Petschow u.~a. (2018, 22).}
+adaptiert nach Petschow et al. (2018, 22).}
 
 \end{figure}%
 
@@ -1645,7 +1649,7 @@ bislang noch keiner.
 
 Zur Veranschaulichung, wie weit unterschiedliche Indikatoren
 auseinanderklaffen können, sind in Abbildung~\ref{fig-gpi-gdp} die
-Berechnungen von Kubiszewski u.~a. (2013) für die Entwicklung des BIP
+Berechnungen von Kubiszewski et al. (2013) für die Entwicklung des BIP
 und des GPI pro Kopf seit den 50er Jahren für eine Gruppe von 17 Ländern
 dargestellt.
 
@@ -1658,7 +1662,7 @@ dargestellt.
 }
 
 \caption{\label{fig-gpi-gdp}GPI vs.~GDP per capita. Quelle: Eigene
-Darstellung mit Daten aus Kubiszewski u.~a. (2013, 63).}
+Darstellung mit Daten aus Kubiszewski et al. (2013, 63).}
 
 \end{figure}%
 
@@ -2196,8 +2200,8 @@ Flexibilisierung und Prekarisierung der Beschäftigung zunehmend unter
 Druck (bspw. Gig Economy). Seit den 1970er Jahren sind in der Schweiz
 Arbeitslosigkeit und Unterbeschäftigung gestiegen, ebenso wie
 Temporärarbeit, Teilzeitbeschäftigung, prekäre und informelle
-Beschäftigung (Benelli und Streckeisen 2014; Halbeisen u.~a. 2012;
-Sheldon 2007; Scherschel u.~a. 2012; Baumgartner u.~a. 2019). In den
+Beschäftigung (Benelli und Streckeisen 2014; Halbeisen et al. 2012;
+Sheldon 2007; Scherschel et al. 2012; Baumgartner et al. 2019). In den
 letzten 50 Jahren sind Frauen auch immer häufiger in den Arbeitsmarkt
 eingetreten, arbeiten aber vorwiegend Teilzeit.
 
@@ -2322,11 +2326,11 @@ im internationalen Vergleich sehr tief. Besonders während des
 Wirtschaftsboom in der Nachkriegszeit gab es in der Schweiz fast keine
 Arbeitslosigkeit, weshalb die Schweiz viele Arbeitskräfte aus dem
 Ausland holte -- welche oft unter prekären Bedingungen arbeiteten
-(Halbeisen u.~a. 2012). Erst mit der Krise in den 70er Jahre kehrte die
+(Halbeisen et al. 2012). Erst mit der Krise in den 70er Jahre kehrte die
 Arbeitslosigkeit in der Schweiz zurück, wobei die Schweiz einen starken
 Anstieg damit verhinderte, dass sie die Arbeitslosigkeit ins Ausland
 exportierte -- bis 1977 mussten fast 250'000 ausländische Arbeitskräfte
-das Land verlassen (Halbeisen u.~a. 2012, 910).
+das Land verlassen (Halbeisen et al. 2012, 910).
 
 \begin{figure}[H]
 
@@ -2668,7 +2672,7 @@ Dienstleistungen her, welche die Haushalte konsumieren.
 
 In einem simplifizierten Wirtschaftskreislauf stehen auf aggregierter
 Ebene den Ausgaben immer gleich hohe Einnahmen gegenüber (siehe
-Abbildung~\ref{fig-econ-cycle}. Die Haushalte nehmen dabei Löhne
+Abbildung~\ref{fig-econ-cycle}). Die Haushalte nehmen dabei Löhne
 (\emph{L\textsubscript{ges}}) ein und können diese als Ausgaben wieder
 konsumieren (\emph{C\textsubscript{ges}}). Unternehmen nehmen Profite
 (\emph{P\textsubscript{ges}}) ein und geben diese in Form von
@@ -2720,9 +2724,9 @@ Staatsausgaben und Exporte als \emph{Zuflüsse} fungieren.}
 
 \end{minipage}%
 \newline
-\begin{minipage}[t]{0.50\linewidth}
+\begin{minipage}[t]{\linewidth}
 Quelle: Eigene Darstellungen nach Rogall (2013) {[}S. 32{]} und Bäuerle
-u.~a. (2026, 29).\end{minipage}%
+et al. (2026, 29).\end{minipage}%
 
 \end{figure}%
 
@@ -2758,7 +2762,7 @@ Marktverständnis der Neoklassik und das politökonomische Verständnis
 kapitalistischer Märkte. Eine dritte Perspektive, die
 Institutionsökonomik, die die aktive Gestaltung von Märkten betont,
 greifen wir später beim Verhältnis von Markt und Staat wieder auf
-(Kapitel 5, \emph{5 Die Rolle des Staates und wirtschaftspolitische
+(Kapitel 5, \emph{Die Rolle des Staates und wirtschaftspolitische
 Leitbilder}).
 
 \subsection{Funktionsweise des Marktes in der
@@ -3302,17 +3306,17 @@ von Kapital. Unternehmen produzieren nicht nur, um Güter
 bereitzustellen, sondern um Gewinne zu erzielen und diese Gewinne erneut
 in den Produktionsprozess zu investieren. Marx beschreibt diese Dynamik
 als Bewegung von Geld (M) über Produktion von Ware (C) zurück zu mehr
-Geld (M') -- (wird oft unter dieser Schreibweise zusammengefasst:
-M-C-M'): Kapital wird eingesetzt, um Waren zu produzieren, deren Verkauf
-einen höheren Geldbetrag generiert. Kapital muss sich somit
-kontinuierlich vermehren. Diese Dynamik ist nicht allein durch
-individuelle Gewinninteressen einzelner Unternehmen bestimmt, sondern
-entsteht auch durch den Wettbewerbsdruck zwischen Unternehmen.
-Unternehmen, die nicht investieren, Innovationen hervorbringen oder ihre
-Produktivität steigern, riskieren, Marktanteile zu verlieren. Konkurrenz
-erzeugt dadurch einen systemischen Druck zu Wachstum, Expansion und
-ständiger Steigerung der Produktivität. Aus dieser Wachstumsdynamik
-entstehen mehrere Spannungen:
+Geld (M') -- wird oft unter dieser Schreibweise zusammengefasst: M-C-M':
+Kapital wird eingesetzt, um Waren zu produzieren, deren Verkauf einen
+höheren Geldbetrag generiert. Kapital muss sich somit kontinuierlich
+vermehren. Diese Dynamik ist nicht allein durch individuelle
+Gewinninteressen einzelner Unternehmen bestimmt, sondern entsteht auch
+durch den Wettbewerbsdruck zwischen Unternehmen. Unternehmen, die nicht
+investieren, Innovationen hervorbringen oder ihre Produktivität
+steigern, riskieren, Marktanteile zu verlieren. Konkurrenz erzeugt
+dadurch einen systemischen Druck zu Wachstum, Expansion und ständiger
+Steigerung der Produktivität. Aus dieser Wachstumsdynamik entstehen
+mehrere Spannungen:
 
 \begin{itemize}
 \item
@@ -3528,7 +3532,7 @@ erreichen wir dieses Ziel nicht, und was genau steht ihm im Weg?
 Die derzeitige Wirtschaftsweise führt zu grossen Herausforderungen, die
 sich in verschiedenen Krisen manifestieren. Bei den aktuellen Krisen
 wird von einer Vielfachkrise gesprochen, seit kürzerem auch vermehrt von
-einer \textbf{Polykrise} (siehe bspw. Lawrence u.~a. 2024 oder dieses
+einer \textbf{Polykrise} (siehe bspw. Lawrence et al. 2024 oder dieses
 \href{https://www.weforum.org/videos/experts-explain-adam-tooze-what-is-the-polycrisis/}{Erklärvideo}
 von Adam Tooze) weil sie die Arbeits- und Lebenswelt der Menschen in
 vielfältiger Weise berühren sowie miteinander verwoben sind. Die
@@ -3614,10 +3618,10 @@ produktive Produktionsweise, was eine massive Steigerung des materiellen
 Wohlstandes ermöglichte. Gleichzeitig, aber deutlich weniger betrachtet,
 kam es ebenso zu einer massiven Zunahme des Verbrauchs an natürlichen
 Ressourcen, Umweltverschmutzung und ausgestossenen Emissionen (Jarrige
-u.~a. 2020). Sozioökonomisches Wachstum ging mit der Beschleunigung
+et al. 2020). Sozioökonomisches Wachstum ging mit der Beschleunigung
 biophysischer Trends einher. Die Beschreibung exponentieller
 Wachstumsdynamiken wird ``die grosse Beschleunigung'' genannt *
-*(Steffen u.~a. 2015). Die obenstehende Grafik zeigt beispielshaft
+*(Steffen et al. 2015). Die obenstehende Grafik zeigt beispielshaft
 einige wichtige biophysische sowie sozioökonomische Indikatoren, die
 alle mit der Industriellen Revolution zu steigen beginnen. Ab der Mitte
 des 20. Jahrhunderts wird die Tendenz zu exponentiellen Wachstum
@@ -3734,7 +3738,7 @@ der planetaren Grenzen rät hier zur Anwendung des Vorsorgeprinzips, um
 mögliche Schäden für Mensch und Umwelt zu reduzieren. Der aktuelle
 planetare Gesundheitsbericht nimmt die planetaren Grenzen als
 grundlegendes Framework um die Gesundheit unseres Planeten zu evaluieren
-(Ceasar u.~a. 2024; Sakschewski u.~a. 2025). Die kürzlich gegründete
+(Ceasar et al. 2024; Sakschewski et al. 2025). Die kürzlich gegründete
 Initiative „\href{https://www.planetaryhealthcheck.org/}{Planetary
 Health Check}`` bietet neben dem Bericht auch auf der Webseite spannende
 Möglichkeiten sich mit den planetaren Grenzen und deren Entwicklung in
@@ -3750,7 +3754,7 @@ den letzten 70 Jahren auseinanderzusetzen.
 jeweilige Risikoeinschätzung des aktuellen Stands. Grün bezeichnet den
 sicheren Handlungsspielraum, gelb eine erhöhte Unsicherheit. Über gelb
 hinaus zeigt, dass das Risiko fataler Folgen als gross eingeschätzt
-wird. Quelle: Sakschewski u.~a. (2025, 29).}
+wird. Quelle: Sakschewski et al. (2025, 29).}
 
 \end{figure}%
 
@@ -3758,12 +3762,13 @@ Die planetaren Grenzen beziehen sich auf neun verschiedene Subsysteme
 wie Landnutzungswandel oder die Versauerung der Meere. Für diese sind
 jeweils ein innerer (sicherer Handlungsspielraum) und ein äusserer Kreis
 (erhöhte Unsicherheit) festgelegt. Sieben von neun planetaren Grenzen
-sind bereits überschritten (Sakschewski u.~a. 2025). Bei der Versauerung
-der Ozeane ist die Grenze seit kurzem zum ersten Mal überschritten,
-während die Aerosolbelastung wieder etwas sinkt. Während der Trend bzgl.
-Ozonwerte in der Stratosphäre nicht eine eindeutige Richtung erkennen
-lässt, nimmt der Grad der Überschreitung bei allen zuvor als
-überschritten identifizierten Grenzen zu (Sakschewski u.~a. 2025).
+sind bereits überschritten (Sakschewski et al. 2025). Bei der
+Versauerung der Ozeane ist die Grenze seit kurzem zum ersten Mal
+überschritten, während die Aerosolbelastung wieder etwas sinkt. Während
+der Trend bzgl. Ozonwerte in der Stratosphäre nicht eine eindeutige
+Richtung erkennen lässt, nimmt der Grad der Überschreitung bei allen
+zuvor als überschritten identifizierten Grenzen zu (Sakschewski et al.
+2025).
 
 Innerhalb dieser neun Subsysteme gibt es zwei sogenannte Kerngrenzen:
 die Intaktheit der Biosphäre und den Klimawandel. Diese beiden Systeme
@@ -4897,7 +4902,7 @@ Globalen Süden ab Ende der 1970er durch Institutionen wie der
 Internationale Währungsfonds erschwerte bspw. die Entwicklung von
 eigenen konkurrenzfähigen produzierenden Industrien und drängte diese
 Länder wieder in die Produktion bzw. Abbau von Rohstoffen (siehe z.B.
-Chang und Palma 2003). Dorninger u.~a. (2021) zeigen wie stark sich
+Chang und Palma 2003). Dorninger et al. (2021) zeigen wie stark sich
 dieser ungleiche Austausch in verschieden Aspekten (bspw. Landnutzung,
 Ressourcenverbrauch etc.) manifestiert und materialisiert (siehe
 \textbf{?@fig-resourceuse}).
@@ -4967,7 +4972,7 @@ unter die 50\%-Marke. Neben der ökonomischen Globalisierung ist dieser
 Trend auch stark durch die technologische Entwicklung geprägt.
 Angesichts der rapiden Beschleunigung insbesondere durch die verbreitete
 Anwendung von künstlicher Intelligenz ist keine schnelle Umkehr des
-Trends ersichtlich (Dao u.~a. 2017). Viel eher ist anzunehmen, dass
+Trends ersichtlich (Dao et al. 2017). Viel eher ist anzunehmen, dass
 Einkommensunterschiede aufgrund von Arbeitsteilung je länger je mehr
 durch Unterschiede zwischen Arbeit- und Kapitaleinkommen in den Schatten
 gestellt werden.
@@ -4994,7 +4999,7 @@ nieder: Bereits 2016 hielt eine Oxfam-Studie (basierend auf Daten der
 Credit Suisse) fest, dass das reichste Prozent gleich viel Vermögen
 unter sich vereint wie der Rest der Menschheit -- und dass nur 62
 Personen gleich viel besitzen wie die ärmere Hälfte der Weltbevölkerung.
-Im Jahr 2025 brauchte es dafür noch 12 (Maitland u.~a. 2026).
+Im Jahr 2025 brauchte es dafür noch 12 (Maitland et al. 2026).
 
 \subsection{Nationale und globale
 Ungleichheit}\label{nationale-und-globale-ungleichheit}
@@ -5010,7 +5015,7 @@ Ungleichheit}\label{nationale-und-globale-ungleichheit}
 }
 
 \caption{\label{fig-elephant-hockey}Elefant oder Hockeystock? Quelle:*
-Lannen u.~a. (2019).}
+Lannen et al. (2019).}
 
 \end{figure}%
 
@@ -5054,7 +5059,7 @@ Ausbeutung, Abhängigkeiten und ungleichem Austausch (siehe bspw. Anievas
 und Nişancıoğlu 2015; Davis 2017; Ghosh 2021; Hickel 2017; Patnaik und
 Patnaik 2021).
 
-Dorninger u.~a. (2021) zeigen auf, dass einkommensstarke Länder mehr
+Dorninger et al. (2021) zeigen auf, dass einkommensstarke Länder mehr
 Ressourcen, Land, Energie und Arbeitskraft beanspruchen als sie selbst
 produzieren. Es findet diesbezüglich also ein \textbf{ungleicher
 Austausch zwischen den verschiedenen Ländergruppen statt}. Zudem drängt
@@ -5066,7 +5071,7 @@ Wert abschöpfen lässt. Globale Wertschöpfungsketten werden oft von
 Unternehmen im Globalen Norden kontrolliert, was diesen ungleichen
 Austausch verstärkt und diesen Unternehmen ermöglicht den Grossteil des
 Profites abzuschöpfen und die Kosten in den Globalen Süden zu verlagern
-(siehe bspw. Althouse u.~a. 2023; Durand und Milberg 2020; Ponte 2022).
+(siehe bspw. Althouse et al. 2023; Durand und Milberg 2020; Ponte 2022).
 Solche Konstellationen erhöhen den Druck auf Arbeitsbedingungen und
 begünstigen Ausbeutungsverhältnisse im Globalen Süden.
 
@@ -5144,7 +5149,7 @@ Produktion an; hier wird eine Veränderung in erster Linie durch
 technologische Fortschritte angestrebt. Befürworter*innen dieser
 Herangehensweise glauben daran, dass es möglich ist, den Wohlstand zu
 verdoppeln und gleichzeitig den Naturverbrauch zu halbieren (Weizsäcker
-u.~a. 1997). Kritiker*innen der Effizienzstrategie sind jedoch weniger
+et al. 1997). Kritiker*innen der Effizienzstrategie sind jedoch weniger
 optimistisch und warnen davor, ihre Auswirkungen auf nachhaltiges
 Wirtschaften zu überbewerten. Sie verweisen auf sogenannte
 \emph{Rebound-Effekte} (siehe Kapitel 3.1.3, \emph{Klimakrise --
@@ -5353,7 +5358,7 @@ nicht einfach isoliert nebeneinander. Sie verdichten sich in der Praxis
 zu grösseren, kohärenten \textbf{wirtschaftspolitischen Leitbildern} --
 also zu Gesamtbildern davon, wie Staat, Markt und Gesellschaft
 zusammenspielen sollen, damit das gemeinsame Ziel erreicht wird. In
-unserer Veranstaltung unterscheiden wir in Anlehnung an Novy u.~a.
+unserer Veranstaltung unterscheiden wir in Anlehnung an Novy et al.
 (2023) drei grundlegende wirtschaftspolitische Leitbilder, die aus den
 Einflüssen verschiedenen Denkschulen heute beobachtbar sind: den
 \textbf{Marktliberalismus}, den \textbf{Wohlfahrtskapitalismus} und das
@@ -5475,7 +5480,7 @@ Konzept des Marktversagens häufig zu eng gefasst ist. Der Ökonom Samuel
 Bowles argumentiert etwa, dass Märkte nicht nur Ressourcen allozieren
 und Einkommen verteilen, sondern dass sie auch \textbf{Kultur,
 Präferenzen und Machtstrukturen formen}. Damit sind sie „ebenso sehr
-politische und kulturelle Institutionen wie ökonomische`` (Herzog u.~a.
+politische und kulturelle Institutionen wie ökonomische`` (Herzog et al.
 2014, 471). Vier Bausteine tragen dieses Argument:
 
 \begin{itemize}
@@ -5487,14 +5492,14 @@ politische und kulturelle Institutionen wie ökonomische`` (Herzog u.~a.
   \emph{endogen} sind (der Markt selbst hat Auswirkungen auf ihre
   Fähigkeiten, Werte, Wünsche) funktioniert die Allokation auf Märkten
   nicht mehr so effizient, wie im Model beschrieben, weil es auf genau
-  dieser Exogenitätsannahme beruht (Herzog u.~a. 2014, 481).
+  dieser Exogenitätsannahme beruht (Herzog et al. 2014, 481).
 \item
   \textbf{Umstrittene Märkte.} Wo Durchsetzung von Ansprüchen endogen
   erfolgt (durch die Teilnehmenden selbst statt durch Dritte), entsteht
   eine Machtbeziehung zwischen der Seite mit der grösseren Knappheit und
   der anderen ``selbst dann, wenn der Austauschprozess unter voller
   Information stattfindet, ohne Zwang und unter vollständigen
-  Wettbewerbsbedingungen`` (Herzog u.~a. 2014, 478).
+  Wettbewerbsbedingungen`` (Herzog et al. 2014, 478).
 \item
   \textbf{Unvollständige Verträge als Regelfall, nicht Ausnahme.} Weil
   Verträge nie alle Eventualitäten abdecken können, braucht es
@@ -5502,7 +5507,7 @@ politische und kulturelle Institutionen wie ökonomische`` (Herzog u.~a.
   deshalb sind Märkte politisch.
 \item
   \textbf{Konstitutive Austauschprozesse.} ``Wenn Freunde sich Geschenke
-  machen, machen Geschenke Freunde'' (Herzog u.~a. 2014, 475) -- wie
+  machen, machen Geschenke Freunde'' (Herzog et al. 2014, 475) -- wie
   Arbeit organisiert und verteilt wird, prägt die Entwicklung unserer
   Fähigkeiten und Normen. Das heisst Märkte sind konstitutiv.
 \end{itemize}
@@ -5618,8 +5623,8 @@ Haushalten und Firmen. Damit verschiebt sich auch die Frage nach der
 Rolle des Staates: Es geht nicht in erster Linie um die Korrektur
 einzelner Marktversagen, sondern darum, den gesamten ökonomischen
 Durchsatz (throughput) innerhalb der Tragfähigkeit des Planeten zu
-halten (Rockström u.~a. 2009). Herman Daly (2017), eine Gründerfigur der
-ökologischen Ökonomik, leitet daraus ein explizit staatszentriertes
+halten (Rockström et al. 2009). Herman Daly (2017), eine Gründerfigur
+der ökologischen Ökonomik, leitet daraus ein explizit staatszentriertes
 Institutionendesign für eine ``steady-state economy'' ab. Drei
 Instrumente, für die es einen starken, gestaltenden Staat braucht, weil
 kein Markt sie sich selbst geben kann:
@@ -5777,7 +5782,7 @@ Nachhaltige Ökonomie lässt sich, in Anlehnung an Schmelzer und Vetter
   die Kritik an ressourcenintensiven Extraktions- und Exportlogiken
   (Acosta 2017), und Post-Development-Ansätze, die das westliche
   Entwicklungsmodell als eurozentrisch und normativ hinterfragen
-  (Klapeer u.~a. 2023).
+  (Klapeer et al. 2023).
 \item
   \textbf{Gutes Leben für alle}: nicht Wachstum als Selbstzweck, sondern
   ein Wirtschaften, das tatsächliche Bedürfnisse befriedigt.
@@ -5965,7 +5970,7 @@ Bontrup, Heinz-J., und Ralf-M. Marquardt. 2021.
 Gruyter Oldenbourg.
 
 \bibitem[\citeproctext]{ref-ceasarPlanetaryHealthCheck2024}
-Ceasar, L., B. Sakschweski, L. S. Andersen, u.~a. 2024. \emph{Planetary
+Ceasar, L., B. Sakschweski, L. S. Andersen, et al. 2024. \emph{Planetary
 Health Check Report 2024}. Potsdam Institute for Climate Impact
 Research.
 
@@ -6033,8 +6038,8 @@ of Professional Economic Ethics}. Oxford University Press.
 \url{https://academic.oup.com/edited-volume/28011/chapter/211790248}.
 
 \bibitem[\citeproctext]{ref-dorningerGlobalPatternsEcologically2021a}
-Dorninger, Christian, Alf Hornborg, David J. Abson, u.~a. 2021. {«Global
-Patterns of Ecologically Unequal Exchange: Implications for
+Dorninger, Christian, Alf Hornborg, David J. Abson, et al. 2021.
+{«Global Patterns of Ecologically Unequal Exchange: Implications for
 Sustainability in the 21st Century»}. \emph{Ecological Economics} 179:
 106824. \url{https://doi.org/10.1016/j.ecolecon.2020.106824}.
 
@@ -6197,7 +6202,7 @@ Klapeer, Christine M., Karin Fischer, Gerhard Hauck, und Manuela Boatcă.
 Springer Fachmedien. \url{https://doi.org/10.1007/978-3-658-32946-4_12}.
 
 \bibitem[\citeproctext]{ref-kubiszewskiGDPMeasuringAchieving2013}
-Kubiszewski, Ida, Robert Costanza, Carol Franco, u.~a. 2013. {«Beyond
+Kubiszewski, Ida, Robert Costanza, Carol Franco, et al. 2013. {«Beyond
 GDP: Measuring and Achieving Global Genuine Progress»}. \emph{Ecological
 Economics} 93: 57--68.
 \url{https://doi.org/10.1016/j.ecolecon.2013.04.019}.
@@ -6232,7 +6237,7 @@ Reserve Army of Labor»}. \emph{Monthly Review} 55 (11): 18.
 \url{https://doi.org/10.14452/MR-055-11-2004-04_2}.
 
 \bibitem[\citeproctext]{ref-maitlandResistingRuleRich2026}
-Maitland, Alex, Anjela Taneja, Anthony Kamande, u.~a. 2026.
+Maitland, Alex, Anjela Taneja, Anthony Kamande, et al. 2026.
 \emph{Resisting the {Rule} of the {Rich}}. Oxfam International.
 \url{https://doi.org/10.21201/2025.000113}.
 
@@ -6405,7 +6410,7 @@ Robson, John M., und John Stuart Mill. 1996. \emph{Essays on Economics
 and Society}. University of Toronto Press.
 
 \bibitem[\citeproctext]{ref-rockstromSafeOperatingSpace2009}
-Rockström, Johan, Will Steffen, Kevin Noone, u.~a. 2009. {«A safe
+Rockström, Johan, Will Steffen, Kevin Noone, et al. 2009. {«A safe
 operating space for humanity»}. \emph{Nature} 461 (7263): 472--75.
 \url{https://doi.org/10.1038/461472a}.
 
@@ -6437,7 +6442,7 @@ Saave, Anna, und Friedrich-Schiller-Universität Jena. 2022.
 kapitalistischen Produktionsweise}. Transcript.
 
 \bibitem[\citeproctext]{ref-sakschewskiPlanetaryHealthCheck2025a}
-Sakschewski, Boris, Levke Caesar, Lauren Andersen, u.~a. 2025.
+Sakschewski, Boris, Levke Caesar, Lauren Andersen, et al. 2025.
 \emph{Planetary Health Check 2025: A Scientific Assessment of the State
 of the Planet}. Potsdam Institute for Climate Impact Research (PIK).
 \url{https://publications.pik-potsdam.de/pubman/item/item_32589}.

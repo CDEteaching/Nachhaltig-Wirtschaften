@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de-CH" xml:lang="de-CH"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -60,14 +63,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bd1453fb85cc1d86fb6d12350ad10201.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bd1453fb85cc1d86fb6d12350ad10201.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-402df6278987b1c1cf6c287f8ba8e55b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-db150b37408ade8d98d47d3c9edab02a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-402df6278987b1c1cf6c287f8ba8e55b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -99,6 +102,9 @@ div.csl-indent {
 
 <link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="webex.css">
@@ -416,7 +422,7 @@ div.csl-indent {
 
 <section id="vorwort" class="level1 unnumbered">
 <h1 class="unnumbered">Vorwort</h1>
-<p>Das folgende Skript enthält die Lernsequenzen für den Kurs „<a href="https://ilias.unibe.ch/go/crs/3701540" target="_blank">Nachhaltige Ökonomie</a>“, die in den Selbststudienphasen erarbeitet werden. Das Skript dient zur Erleichterung der Bearbeitung der Sequenzen, da Ilias keine befriedigende Lösung bietet, die Lernsequenzen herunterzuladen. Bitte denken Sie daran, dass Sie sich an den Selbststudienphasen auf Ilias orientieren. Dort finden Sie zusätzliche Texte, Informationen und Übungen, die Sie bearbeiten müssen. Zudem sind viele Abschnitte interaktiv, enthalten Links und Videos. Insgesamt enthält das Skript sechs Kapitel, die Sie in den Selbststudienphasen 1 bis 5 erarbeiten. Neben den Ausführungen im Skript finden Sie immer auch Hinweise auf weiterführendes Material und Literatur. Bei Interesse können Sie dies gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich erschienene Einführungslehrbuch <em>Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah</em> von <span class="citation" data-cites="bauerleGrundfragenOkonomie2026">Bäuerle u.&nbsp;a. (<a href="references.html#ref-bauerleGrundfragenOkonomie2026" role="doc-biblioref">2026</a>)</span>. Darin können Sie sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen möchten. Wir stellen gerne weiterführendes Material zur Verfügung.</p>
+<p>Das folgende Skript enthält die Lernsequenzen für den Kurs „<a href="https://ilias.unibe.ch/go/crs/3701540" target="_blank">Nachhaltige Ökonomie</a>“, die in den Selbststudienphasen erarbeitet werden. Das Skript dient zur Erleichterung der Bearbeitung der Sequenzen, da Ilias keine befriedigende Lösung bietet, die Lernsequenzen herunterzuladen. Bitte denken Sie daran, dass Sie sich an den Selbststudienphasen auf Ilias orientieren. Dort finden Sie zusätzliche Texte, Informationen und Übungen, die Sie bearbeiten müssen. Zudem sind viele Abschnitte interaktiv, enthalten Links und Videos. Insgesamt enthält das Skript sechs Kapitel, die Sie in den Selbststudienphasen 1 bis 5 erarbeiten. Neben den Ausführungen im Skript finden Sie immer auch Hinweise auf weiterführendes Material und Literatur. Bei Interesse können Sie dies gerne nutzen um gewisse Themenbereiche zu vertiefen. Zur Vertiefung von Grundfragen der Ökonomie verweisen wir gerne auf das kürzlich erschienene Einführungslehrbuch <em>Grundfragen der Ökonomie: Plural – Reflexiv – Lebensnah</em> von <span class="citation" data-cites="bauerleGrundfragenOkonomie2026">Bäuerle et al. (<a href="references.html#ref-bauerleGrundfragenOkonomie2026" role="doc-biblioref">2026</a>)</span>. Darin können Sie sich mit vielen Aspekten, die im Skript aufgegriffen werden, vertieft auseinandersetzen. Bei Bedarf können Sie auch jederzeit auf uns zukommen, falls Sie sich mit gewissen Themen vertieft auseinandersetzen möchten. Wir stellen gerne weiterführendes Material zur Verfügung.</p>
 <section id="beitragsmatrix-credit-taxonomie" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="beitragsmatrix-credit-taxonomie">Beitragsmatrix (CRediT-Taxonomie)</h2>
 <div class="cell">
@@ -2136,7 +2142,7 @@ window.onload = function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>“This a product of <a href="www.cde.unibe.ch/"><img src=".\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="./images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de-CH" xml:lang="de-CH"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -61,14 +64,14 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bd1453fb85cc1d86fb6d12350ad10201.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-bd1453fb85cc1d86fb6d12350ad10201.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-402df6278987b1c1cf6c287f8ba8e55b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-db150b37408ade8d98d47d3c9edab02a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-402df6278987b1c1cf6c287f8ba8e55b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -99,6 +102,9 @@ div.csl-indent {
     "search-label": "Suchen"
   }
 }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../webex.css">
@@ -441,7 +447,7 @@ div.csl-indent {
 </div>
 <p>Wir haben in diesem Skript einen weiten Bogen zurückgelegt: In Kapitel 1 haben wir gesehen, dass es nicht die eine Ökonomik gibt, sondern verschiedene Denkschulen mit je eigenen Grundannahmen. In Kapitel 2 haben wir uns mit Wohlstand als eigentlichem Ziel von wirtschaftlichem Handeln auseinandergesetzt und haben uns gefragt, womit dieser Wohlstand bereitgestellt wird (Produktionsfaktoren, Güter) und wie diese Bereitstellung koordiniert wird. In Kapitel 3 haben wir gesehen, dass unsere heutige Wirtschaft dieses Ziel in mehrfacher Hinsicht verfehlt, und in Kapitel 4 haben wir mit Effizienz, Konsistenz und Suffizienz drei Strategien kennengelernt, wie sich diesen Problemen begegnen liesse. Damit schliesst sich der Kreis zur ursprünglichen Frage aus Kapitel 2: Wie muss eine Wirtschaft koordiniert werden, damit Wohlstand für alle, innerhalb ökologischer Grenzen tatsächlich erreicht wird?</p>
 <p>Somit stellt sich jetzt die Umsetzungsfrage: Wer sorgt eigentlich dafür, dass es so weit kommt? Der Markt allein, oder braucht es dafür den Staat? Und diese Frage lässt sich nicht unabhängig davon beantworten, was wir bereits gesehen haben: Je nachdem, welches Verständnis von Wirtschaft, Märkten und Kapitalismus man vertritt, fällt auch die Antwort auf die Rolle des Staates unterschiedlich aus – von einem auf Marktversagen beschränkten Eingreifen bis hin zu einem aktiv gestaltenden oder gar grenzensetzenden Staat.</p>
-<p>Diese unterschiedlichen Vorstellungen von Staat und Markt stehen dabei nicht einfach isoliert nebeneinander. Sie verdichten sich in der Praxis zu grösseren, kohärenten <strong>wirtschaftspolitischen Leitbildern</strong> – also zu Gesamtbildern davon, wie Staat, Markt und Gesellschaft zusammenspielen sollen, damit das gemeinsame Ziel erreicht wird. In unserer Veranstaltung unterscheiden wir in Anlehnung an <span class="citation" data-cites="novyZukunftsfaehigesWirtschaften2023">Novy u.&nbsp;a. (<a href="../references.html#ref-novyZukunftsfaehigesWirtschaften2023" role="doc-biblioref">2023</a>)</span> drei grundlegende wirtschaftspolitische Leitbilder, die aus den Einflüssen verschiedenen Denkschulen heute beobachtbar sind: den <strong>Marktliberalismus</strong>, den <strong>Wohlfahrtskapitalismus</strong> und das <strong>Postwachstum</strong>. Jedes davon lässt sich auf die Denkstile zurückführen, die uns durch das ganze Skript begleiten.</p>
+<p>Diese unterschiedlichen Vorstellungen von Staat und Markt stehen dabei nicht einfach isoliert nebeneinander. Sie verdichten sich in der Praxis zu grösseren, kohärenten <strong>wirtschaftspolitischen Leitbildern</strong> – also zu Gesamtbildern davon, wie Staat, Markt und Gesellschaft zusammenspielen sollen, damit das gemeinsame Ziel erreicht wird. In unserer Veranstaltung unterscheiden wir in Anlehnung an <span class="citation" data-cites="novyZukunftsfaehigesWirtschaften2023">Novy et al. (<a href="../references.html#ref-novyZukunftsfaehigesWirtschaften2023" role="doc-biblioref">2023</a>)</span> drei grundlegende wirtschaftspolitische Leitbilder, die aus den Einflüssen verschiedenen Denkschulen heute beobachtbar sind: den <strong>Marktliberalismus</strong>, den <strong>Wohlfahrtskapitalismus</strong> und das <strong>Postwachstum</strong>. Jedes davon lässt sich auf die Denkstile zurückführen, die uns durch das ganze Skript begleiten.</p>
 <section id="warum-markt-vs.-staat-historisch-keine-selbstverständlichkeit-ist" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="warum-markt-vs.-staat-historisch-keine-selbstverständlichkeit-ist"><span class="header-section-number">5.1</span> Warum “Markt vs.&nbsp;Staat” historisch keine Selbstverständlichkeit ist</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -466,12 +472,12 @@ div.csl-indent {
 <p>Die hier basierend auf einem neoklassischen Verständnis beschriebene Rolle des Staates, die sich auf die Gewährleistung von Privateigentum an Produktionsmitteln (Eigentumsrechte), der Verhinderung von Monopolen (Marktmacht) und begrenzten Eingriffen zur Korrektur des Marktgeschehens (Marktversagen und Externalitäten) beschränkt, bezeichnen wir als <strong>marktliberales Leitbild</strong>.</p>
 <section id="kritik-am-marktliberalen-leitbild-märkte-sind-nicht-neutral-sie-konstituieren" class="level3" data-number="5.2.1">
 <h3 data-number="5.2.1" class="anchored" data-anchor-id="kritik-am-marktliberalen-leitbild-märkte-sind-nicht-neutral-sie-konstituieren"><span class="header-section-number">5.2.1</span> Kritik am marktliberalen Leitbild: Märkte sind nicht neutral – sie konstituieren</h3>
-<p>Eine wichtige Kritik des marktliberalen Leitbilds und der von ihm zugewiesenen Rolle des Staats entstammt der Beobachtung, dass dessen Konzept des Marktversagens häufig zu eng gefasst ist. Der Ökonom Samuel Bowles argumentiert etwa, dass Märkte nicht nur Ressourcen allozieren und Einkommen verteilen, sondern dass sie auch <strong>Kultur, Präferenzen und Machtstrukturen formen</strong>. Damit sind sie „ebenso sehr politische und kulturelle Institutionen wie ökonomische“ <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog u.&nbsp;a. 2014, 471</a>)</span>. Vier Bausteine tragen dieses Argument:</p>
+<p>Eine wichtige Kritik des marktliberalen Leitbilds und der von ihm zugewiesenen Rolle des Staats entstammt der Beobachtung, dass dessen Konzept des Marktversagens häufig zu eng gefasst ist. Der Ökonom Samuel Bowles argumentiert etwa, dass Märkte nicht nur Ressourcen allozieren und Einkommen verteilen, sondern dass sie auch <strong>Kultur, Präferenzen und Machtstrukturen formen</strong>. Damit sind sie „ebenso sehr politische und kulturelle Institutionen wie ökonomische“ <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog et al. 2014, 471</a>)</span>. Vier Bausteine tragen dieses Argument:</p>
 <ul>
-<li><strong>Endogene vs.&nbsp;exogene Teilnehmende.</strong> Der abstrakte Markt aus dem Lehrbuch, wie wir ihn in Kapitel 2.5 diskutiert haben, unterstellt exogene, unveränderliche Präferenzen. Sobald Teilnehmende <em>endogen</em> sind (der Markt selbst hat Auswirkungen auf ihre Fähigkeiten, Werte, Wünsche) funktioniert die Allokation auf Märkten nicht mehr so effizient, wie im Model beschrieben, weil es auf genau dieser Exogenitätsannahme beruht <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog u.&nbsp;a. 2014, 481</a>)</span>.</li>
-<li><strong>Umstrittene Märkte.</strong> Wo Durchsetzung von Ansprüchen endogen erfolgt (durch die Teilnehmenden selbst statt durch Dritte), entsteht eine Machtbeziehung zwischen der Seite mit der grösseren Knappheit und der anderen “selbst dann, wenn der Austauschprozess unter voller Information stattfindet, ohne Zwang und unter vollständigen Wettbewerbsbedingungen“ <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog u.&nbsp;a. 2014, 478</a>)</span>.</li>
+<li><strong>Endogene vs.&nbsp;exogene Teilnehmende.</strong> Der abstrakte Markt aus dem Lehrbuch, wie wir ihn in Kapitel 2.5 diskutiert haben, unterstellt exogene, unveränderliche Präferenzen. Sobald Teilnehmende <em>endogen</em> sind (der Markt selbst hat Auswirkungen auf ihre Fähigkeiten, Werte, Wünsche) funktioniert die Allokation auf Märkten nicht mehr so effizient, wie im Model beschrieben, weil es auf genau dieser Exogenitätsannahme beruht <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog et al. 2014, 481</a>)</span>.</li>
+<li><strong>Umstrittene Märkte.</strong> Wo Durchsetzung von Ansprüchen endogen erfolgt (durch die Teilnehmenden selbst statt durch Dritte), entsteht eine Machtbeziehung zwischen der Seite mit der grösseren Knappheit und der anderen “selbst dann, wenn der Austauschprozess unter voller Information stattfindet, ohne Zwang und unter vollständigen Wettbewerbsbedingungen“ <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog et al. 2014, 478</a>)</span>.</li>
 <li><strong>Unvollständige Verträge als Regelfall, nicht Ausnahme.</strong> Weil Verträge nie alle Eventualitäten abdecken können, braucht es politische oder soziale Mechanismen, um die Lücken zu füllen. Genau deshalb sind Märkte politisch.</li>
-<li><strong>Konstitutive Austauschprozesse.</strong> “Wenn Freunde sich Geschenke machen, machen Geschenke Freunde” <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog u.&nbsp;a. 2014, 475</a>)</span> – wie Arbeit organisiert und verteilt wird, prägt die Entwicklung unserer Fähigkeiten und Normen. Das heisst Märkte sind konstitutiv.</li>
+<li><strong>Konstitutive Austauschprozesse.</strong> “Wenn Freunde sich Geschenke machen, machen Geschenke Freunde” <span class="citation" data-cites="bowlesWelcheGueterSollen2014">(<a href="../references.html#ref-bowlesWelcheGueterSollen2014" role="doc-biblioref">Herzog et al. 2014, 475</a>)</span> – wie Arbeit organisiert und verteilt wird, prägt die Entwicklung unserer Fähigkeiten und Normen. Das heisst Märkte sind konstitutiv.</li>
 </ul>
 <p>Folgen wir den Argumenten von Bowles, ist Marktversagen kein seltener Ausnahmefall, sondern strukturell fast überall vorhanden ausserhalb vom abstrakten Modell aus dem (marktliberalen) Lehrbuch.</p>
 </section>
@@ -493,7 +499,7 @@ div.csl-indent {
 <section id="postwachstumsleitbild-der-staat-als-hüter-von-grenzen-oder-teil-des-problems" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="postwachstumsleitbild-der-staat-als-hüter-von-grenzen-oder-teil-des-problems"><span class="header-section-number">5.4</span> Postwachstumsleitbild: Der Staat als Hüter von Grenzen – oder Teil des Problems?</h2>
 <p>Das Hauptziel des Postwachstumsansatzes ist ein erfülltes Leben in einer nachhaltigen Gesellschaft, die sich in harmonischer Weise zur Natur verhält, indem der Zwang zum ständigen Wirtschaftswachstum im kapitalistischen System überwunden wird. Angestrebt wird eine Wirtschaft, die in einem stabilen Zustand verharrt (<em>steady-state economy</em>) oder unabhängig von Wirtschaftswachstum funktionieren kann und die grundlegende Versorgung der Menschen sicherstellt, insbesondere über das Prinzip der Suffizienz (die richtige, nicht die maximale Menge an Ressourcennutzung).</p>
-<p>Die ökologische Ökonomik versteht die Wirtschaft als eingebettetes Teilsystem der Erde und nicht als isolierten Kreislauf zwischen Haushalten und Firmen. Damit verschiebt sich auch die Frage nach der Rolle des Staates: Es geht nicht in erster Linie um die Korrektur einzelner Marktversagen, sondern darum, den gesamten ökonomischen Durchsatz (throughput) innerhalb der Tragfähigkeit des Planeten zu halten <span class="citation" data-cites="rockstromSafeOperatingSpace2009">(<a href="../references.html#ref-rockstromSafeOperatingSpace2009" role="doc-biblioref">Rockström u.&nbsp;a. 2009</a>)</span>. Herman Daly <span class="citation" data-cites="dalyNewEconomicsOur2017">(<a href="../references.html#ref-dalyNewEconomicsOur2017" role="doc-biblioref">2017</a>)</span>, eine Gründerfigur der ökologischen Ökonomik, leitet daraus ein explizit staatszentriertes Institutionendesign für eine “steady-state economy” ab. Drei Instrumente, für die es einen starken, gestaltenden Staat braucht, weil kein Markt sie sich selbst geben kann:</p>
+<p>Die ökologische Ökonomik versteht die Wirtschaft als eingebettetes Teilsystem der Erde und nicht als isolierten Kreislauf zwischen Haushalten und Firmen. Damit verschiebt sich auch die Frage nach der Rolle des Staates: Es geht nicht in erster Linie um die Korrektur einzelner Marktversagen, sondern darum, den gesamten ökonomischen Durchsatz (throughput) innerhalb der Tragfähigkeit des Planeten zu halten <span class="citation" data-cites="rockstromSafeOperatingSpace2009">(<a href="../references.html#ref-rockstromSafeOperatingSpace2009" role="doc-biblioref">Rockström et al. 2009</a>)</span>. Herman Daly <span class="citation" data-cites="dalyNewEconomicsOur2017">(<a href="../references.html#ref-dalyNewEconomicsOur2017" role="doc-biblioref">2017</a>)</span>, eine Gründerfigur der ökologischen Ökonomik, leitet daraus ein explizit staatszentriertes Institutionendesign für eine “steady-state economy” ab. Drei Instrumente, für die es einen starken, gestaltenden Staat braucht, weil kein Markt sie sich selbst geben kann:</p>
 <ul>
 <li><p>Cap-auction-trade-Systeme: Der Staat legt eine physische Obergrenze für Ressourcenentnahme und Schadstoffausstoss fest (den “cap”), versteigert Nutzungsrechte und überlässt erst innerhalb dieser Grenze die Allokation dem Markt.</p></li>
 <li><p>Grenzen für Einkommens- und Vermögensverteilung (Mindest- und Höchsteinkommen), damit eine gedeckelte Ressourcennutzung nicht einfach zu schärferer Verteilungskonkurrenz um ein fixes “Kuchenstück” führt.</p></li>
@@ -546,7 +552,7 @@ Mazzucato, Mariana. 2022. <em>Mission economy: a moonshot guide to changing capi
 Novy, Andreas, Richard Bärnthaler, und Magdalena Prieler. 2023. <em>Zukunftsfähiges Wirtschaften: Herausforderungen der sozialökologischen Transformation</em>. 2. Auflage. Juventa Verlag.
 </div>
 <div id="ref-rockstromSafeOperatingSpace2009" class="csl-entry" role="listitem">
-Rockström, Johan, Will Steffen, Kevin Noone, u.&nbsp;a. 2009. <span>«A safe operating space for humanity»</span>. <em>Nature</em> 461 (7263): 472–75. <a href="https://doi.org/10.1038/461472a">https://doi.org/10.1038/461472a</a>.
+Rockström, Johan, Will Steffen, Kevin Noone, et al. 2009. <span>«A safe operating space for humanity»</span>. <em>Nature</em> 461 (7263): 472–75. <a href="https://doi.org/10.1038/461472a">https://doi.org/10.1038/461472a</a>.
 </div>
 <div id="ref-schmelzerDegrowthPostwachstum2019" class="csl-entry" role="listitem">
 Schmelzer, Matthias, und Andrea Vetter. 2019. <em>Degrowth/Postwachstum</em>. Junius.
@@ -2159,7 +2165,7 @@ window.onload = function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="../images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
